@@ -23,6 +23,7 @@ work, patch versions (0.x.y) are smaller additions and fixes on top of it.
 - The README shows English screenshots and the demo video, describes queue,
   alarms and speaker settings, notes the use of AI and links to the project
   page on linuxundich.de.
+- README restructured: feature grid, screenshots beside the text, facts at a glance.
 
 ### Fixed
 - The Quick Settings extension `gnomos-volume` titled its room list

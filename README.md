@@ -163,13 +163,7 @@ Gnomos works with any Sonos system on your network and keeps first-generation pl
 > [!NOTE]
 > A release on Flathub is planned. For now, install the Flatpak bundle from the Releases page.
 
-<table>
-<tr>
-<th width="50%">Flatpak bundle</th>
-<th width="50%">Debian package</th>
-</tr>
-<tr>
-<td valign="top">
+### Flatpak bundle
 
 1. Download `gnomos-<version>-x86_64.flatpak` from the [latest release](https://github.com/linuxundich/gnomos/releases/latest).
 2. Install it:
@@ -180,8 +174,7 @@ flatpak install --user gnomos-*.flatpak
 
 Flatpak fetches the GNOME 51 runtime from Flathub if it is missing. Bundles don't update themselves, so check the Releases page for new versions.
 
-</td>
-<td valign="top">
+### Debian package
 
 Gnomos needs libadwaita 1.9 or newer, so the `.deb` targets Debian testing (forky) or newer; Debian 13 (trixie) ships libadwaita 1.7 and is too old. Build it with Podman:
 
@@ -189,10 +182,6 @@ Gnomos needs libadwaita 1.9 or newer, so the `.deb` targets Debian testing (fork
 build-aux/deb/build.sh
 sudo apt install ./build-aux/deb/out/gnomos_*.deb ./build-aux/deb/out/gnome-shell-extension-gnomos-volume_*.deb
 ```
-
-</td>
-</tr>
-</table>
 
 Optional: the [GNOME Shell extension](gnome-shell-extension/gnomos-volume@linuxundich.de/README.md) for room volumes in Quick Settings. To build Gnomos yourself, see [docs/BUILDING.md](docs/BUILDING.md).
 

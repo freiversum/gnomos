@@ -747,6 +747,8 @@ void GnomosWindow::ShowAboutDialog()
   adw_about_dialog_set_copyright(about, "© 2026 Christoph Langner");
   adw_about_dialog_set_website(about, "https://github.com/linuxundich/gnomos");
   adw_about_dialog_set_issue_url(about, "https://github.com/linuxundich/gnomos/issues");
+  // freiversum is the umbrella over the author's independent projects.
+  adw_about_dialog_add_link(about, _("A star in the freiversum"), "https://freiversum.de/");
 
   // Gnomos links libnoson (GPL-3.0-or-later) statically, so the combined
   // work is bound to those terms — see LICENSE and README.md.

@@ -15,6 +15,9 @@ work, patch versions (0.x.y) are smaller additions and fixes on top of it.
   `gnome-shell-extension-gnomos-volume` for Debian testing in a Podman
   container. Debian 13 is not supported, it ships libadwaita 1.7 and Gnomos
   needs 1.9 (`AdwSidebar`).
+- The About dialog links to freiversum (https://freiversum.de/), the umbrella
+  over the author's independent projects (“A star in the freiversum”,
+  translated into German).
 
 ### Changed
 - The Quick Settings extension `gnomos-volume` declares support for

@@ -18,7 +18,7 @@ Build-Depends: debhelper-compat (= 13),
  libssl-dev,
  zlib1g-dev
 Standards-Version: 4.7.0
-Homepage: https://github.com/linuxundich/gnomos
+Homepage: https://github.com/freiversum/gnomos
 Rules-Requires-Root: no
 
 Package: gnomos

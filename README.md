@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/linuxundich/gnomos/releases/latest"><strong>Download Flatpak</strong></a>
+  <a href="https://github.com/freiversum/gnomos/releases/latest"><strong>Download Flatpak</strong></a>
   &nbsp;·&nbsp; Flathub: planned &nbsp;·&nbsp;
   <a href="https://linuxundich.de/en/projects/gnomos/">Project page</a>
   &nbsp;·&nbsp;
@@ -165,7 +165,7 @@ Gnomos works with any Sonos system on your network and keeps first-generation pl
 
 ### Flatpak bundle
 
-1. Download `gnomos-<version>-x86_64.flatpak` from the [latest release](https://github.com/linuxundich/gnomos/releases/latest).
+1. Download `gnomos-<version>-x86_64.flatpak` from the [latest release](https://github.com/freiversum/gnomos/releases/latest).
 2. Install it:
 
 ```sh
@@ -208,7 +208,7 @@ every message.
 - [Project page on linuxundich.de](https://linuxundich.de/en/projects/gnomos/): details, background and news
 - [All features](docs/FEATURES.md) (the full list, including everything above) · [Changelog](CHANGELOG.md) · [Architecture notes](ARCHITECTURE.md)
 - [Translate Gnomos](docs/TRANSLATING.md) into your language (English and German included)
-- Found a bug or tested other Sonos hardware? [Open an issue](https://github.com/linuxundich/gnomos/issues)
+- Found a bug or tested other Sonos hardware? [Open an issue](https://github.com/freiversum/gnomos/issues)
 
 ## Use of AI
 

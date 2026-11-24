@@ -20,6 +20,7 @@ work, patch versions (0.x.y) are smaller additions and fixes on top of it.
   translated into German).
 
 ### Changed
+- The repository moved to the freiversum organization: https://github.com/freiversum/gnomos. Old `github.com/linuxundich/gnomos` links and clone URLs redirect.
 - The Quick Settings extension `gnomos-volume` declares support for
   GNOME 51. No code changes were needed; GNOME Shell 51 had only marked it
   as out of date and refused to load it.

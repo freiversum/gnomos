@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: gnomos
-Source: https://github.com/linuxundich/gnomos
+Source: https://github.com/freiversum/gnomos
 
 Files: *
 Copyright: Christoph Langner

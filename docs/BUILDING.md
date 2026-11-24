@@ -1,6 +1,6 @@
 # Building Gnomos
 
-Prebuilt Flatpak bundles are on the [Releases page](https://github.com/linuxundich/gnomos/releases); see the [README](../README.md#install). To build Gnomos yourself:
+Prebuilt Flatpak bundles are on the [Releases page](https://github.com/freiversum/gnomos/releases); see the [README](../README.md#install). To build Gnomos yourself:
 
 Dependencies: `meson`, `ninja`, a C++17 compiler, `pkgconf`, `openssl`,
 `zlib`, `gtkmm-4.0` (>= 4.10), `libadwaita-1` (>= 1.9), `json-glib-1.0`,
@@ -13,7 +13,7 @@ sudo pacman -S meson ninja gcc pkgconf openssl zlib gtkmm-4.0 libadwaita json-gl
 Then:
 
 ```sh
-git clone --recurse-submodules https://github.com/linuxundich/gnomos.git
+git clone --recurse-submodules https://github.com/freiversum/gnomos.git
 cd gnomos
 meson setup build
 ninja -C build

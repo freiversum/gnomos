@@ -55,7 +55,7 @@ SoupSession* Session()
   // without a User-Agent with an occasional 503 — which used to surface as
   // "No lyrics found".
   static SoupSession* session =
-      soup_session_new_with_options("user-agent", "Gnomos/" PACKAGE_VERSION " (https://github.com/linuxundich/gnomos)", nullptr);
+      soup_session_new_with_options("user-agent", "Gnomos/" PACKAGE_VERSION " (https://github.com/freiversum/gnomos)", nullptr);
   return session;
 }
 

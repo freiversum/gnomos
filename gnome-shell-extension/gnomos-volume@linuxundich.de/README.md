@@ -1,7 +1,7 @@
 # Gnomos Zone Volume
 
 A small GNOME Shell extension that adds the Sonos zone volume currently
-controlled by [Gnomos](https://github.com/linuxundich/gnomos) as its own
+controlled by [Gnomos](https://github.com/freiversum/gnomos) as its own
 slider in the system volume Quick Settings menu — alongside the regular
 output/input volume rows.
 

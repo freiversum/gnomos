@@ -745,8 +745,8 @@ void GnomosWindow::ShowAboutDialog()
   adw_about_dialog_set_comments(
       about, _("A GTK4/libadwaita client for Sonos speakers, with a special focus on first-generation devices (ZP80, ZP90, ZP100, ZP120, CR100) that Sonos' own current apps no longer support."));
   adw_about_dialog_set_copyright(about, "© 2026 Christoph Langner");
-  adw_about_dialog_set_website(about, "https://github.com/linuxundich/gnomos");
-  adw_about_dialog_set_issue_url(about, "https://github.com/linuxundich/gnomos/issues");
+  adw_about_dialog_set_website(about, "https://github.com/freiversum/gnomos");
+  adw_about_dialog_set_issue_url(about, "https://github.com/freiversum/gnomos/issues");
   // freiversum is the umbrella over the author's independent projects.
   adw_about_dialog_add_link(about, _("A star in the freiversum"), "https://freiversum.de/");
 
